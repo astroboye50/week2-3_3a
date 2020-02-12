@@ -1,0 +1,72 @@
+ttl {
+  font-size: 26px;
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+subj {
+  font-size: 16px;
+  font-weight:bold;
+  display:inline;
+}
+
+dent {
+  margin-left: 5%;
+  display:inline;
+  width:95%;
+  float:right;
+}
+
+dnt {
+  margin-left: 3%;
+  width:97%;
+  float:right;
+}
+
+rgt {
+  margin-right:0;
+  padding-right:0;
+  right:0;
+  float:right;
+  text-align:right;
+  display:inline-block;
+}
+
+@font-face {
+  font-family: klingon;
+  src: url(../ttf/klingon.ttf);
+  font-weight: bold;
+}
+
+latin{
+  top:20%;
+  padding-top:5%;
+  display:inline-block;
+}
+
+
+.cset{
+  font-family: klingon;
+  display:inline;
+}
+
+#container {
+    width:100%;
+    text-align:center;
+}
+
+#left {
+    float:left;
+    width:100px;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:100px;
+}
+
+#right {
+    float:right;
+    width:100px;
+}
